@@ -1,0 +1,206 @@
+BasicInfo:
+  FirstName: Pruthvi
+  LastName: Kumar
+  Photo: img/avatar.jpg
+  Contacts:
+    - Icon: fas fa-envelope
+      Info: itspruthvikumar@gmail.com
+    - Icon: fas fa-globe
+      Info: <a class="contact__link" href="https://www.linkedin.com/in/iampruthvi/" target="_blank">linkedIn</a>
+    - Icon: fas fa-globe
+      Info: <a class="contact__link" href="https://github.com/1x-eng" target="_blank">Github</a>
+    - Icon: fas fa-blog
+      Info: <a class="contact__link" href="https://1x-eng.github.io/blog/" target="_blank">Blog</a>
+    - Icon: fas fa-brain
+      Info: <a class="contact__link" href="https://www.16personalities.com/profiles/e69dc861d6db4" target="_blank">Personality</a>
+    - Icon: fas fa-map-marker-alt
+      Info: Australia
+
+Profile: Software Professional who is a polyglot & an obsessed programmer with over a decade of experience in architecting, developing, and leading the delivery of highly scalable, data-driven & pragmatic solutions. Have capped many techno-leadership roles across many organizations in many countries dealing with various aspects of software development and dev-ops challenges. Experienced in designing, building, maintaining, and leading enterprise-grade data engineering products across major cloud providers.I make things on the internet &  inquisitive about web & mobile development that encompasses big data &/ deep learning &/ IoT. I'm AWS, GCP, CKAD(Kubernetes) & Terraform certified. I also hold developer & architect certifications in Blockchain(Ethereum & R3 Corda). Machine learning & open source enthusiast, its happy customer, and (a tiny) contributor. 
+
+Experience:
+  - Employer: Seer Medical
+    Place: Melbourne, AU
+    Positions:
+      - Title: Software Engineering Manager
+        Date: Aug 2022 - Present
+        Details:
+          - Facilitate a blameless, failfast culture and push for a release often mindset in the core backend team.
+          - Lead the core backend team with an outward focus and ensure the team can operate with high levels of autonomy & accountability.
+        Badges: ['Autonomy', 'Accountability', 'Kanban', 'Outward focused leadership']
+      - Title: Staff Software Engineer 
+        Date: Mar 2022 - Present
+        Details:
+          - Uplift `seer cloud`s authN & authZ position by introducing a service that operates in the DMZ, leverages OAuth2 + OIDC & is decoupled from the core API's. 
+          - Refactor seer cloud's core backend API service to a modern stack using off-the-shelf tooling for GraphQL over postgres.
+          - Reduce the ongoing maintainence cost (cost of dev's time, service latency, data leaks & cyclomatic complexity of code) associated with the existing homegrown framework to enforce our complex permissions model.
+        Badges: ['Typescript', 'NodeJS', 'Postgraphile', 'plpgsql', 'AWS Cognito', 'Okta IdP', 'Terraform', 'Buildkite', 'AWS Container + serverless stack']
+  - Employer: Zip
+    Place: Melbourne, AU
+    Positions:
+      - Title: Senior Staff Software Engineer
+        Date: 2021 - 2022
+        Details:
+          - Empower global search on Zip's mobile & web platforms (merchants & products).
+          - Measure search relevance & boost / bury results based on traffic per region & respective demographics. Toyed with LTR over elastic search (https://github.com/o19s/elasticsearch-learning-to-rank) & business driven search relevance augmentation leveraging Quepid (https://github.com/o19s/quepid)
+          - Embed Ads (https://amp.dev/about/ads/) as configured in CMS (https://www.contentful.com/) leading to revenue gen from clicks & affiliate links. Tech stack included Typescript, Apollo GraphQL (https://www.apollographql.com/) & AWS container services.
+        Badges: ['Elasticsearch', 'AWS ECS', 'Golang', 'Terraform', 'Github Actions']
+  - Employer: Systema AI
+    Place: Melbourne, AU
+    Positions:
+      - Title: Principal Software Engineer
+        Date: 2021 - 2022
+        Details:
+          - Search & recommendations in a cookie less environment. Responsible for software services (data pipelines, backend, infrastructure & CI/CD) encompassing ML & Deeplearning models.
+          - Design and build solutions to enable ingestion & transformation (ELT) of batch/real-time data (product feeds from the likes of shopify, bigcommerce, square etc,.) into cloud-native storage (lakes, marts & warehouses)
+          - Tackle complex scaling challenges around performance, reliability, and our continued expansion into new regions and markets.
+        Badges: ['C# .NET Core', 'Kotlin', 'Python', 'NodeJS', 'Typescript', 'MySQL', 'AWS']
+  - Employer: QSIC
+    Place: Melbourne, AU
+    Positions:
+      - Title: Principal Software Engineer
+        Date: 2021 - 2021
+        Details:
+          - Fault-tolerant, scale-able, near real-time ingestion of POS data from QSIC's partner accounts to QSIC data vault; followed by PySpark ETL into central data lake (glueparquet in s3) that leveraged Hive metastore.
+          - Identify trends & patterns in underlying POS data via traditional BI & ML - Smarter Ad placements into partner's store networks at (near) real-time.
+        Badges: ['Python', 'Elasticsearch', 'AWS Glue', 'AWS Athena', 'AWS Lakehouse', 'AWS Redshift']
+  - Employer: etika
+    Place: Melbourne, AU
+    Positions:
+      - Title: Principal Software Engineer
+        Date: 2020 - 2021
+        Details:
+          - Chief architect & developer of etika's data platform (centralized data lake, Hive meta store, EMR/Spark pipelines & Sagemaker eco-system) that is multi-regional, abide's by data- sovereignty principles, is governed by Terraform, is serverless and accommodates both streaming & batch patterns. 
+          - Architected & engineered etika's data mesh; whose analytical zone is comprised of numerous data pipelines that meets functional & non-functional business requirements. 
+          - Initiated & championed etika's Retailer Insights (traditional + ML Insights) platform by collaborating with internal & external  stakeholders to democratize consumer analytics across all bnpl merchants/retailers onboard.
+          - Principal developer of a securities-lending platform that leverages a hybrid blockchain setup leveraging Ethereum & R3 Corda.
+        Badges: ['Cassandra', 'ScyllaDB', 'Python', 'AWS Kinesis', 'AWS Glue', 'AWS EMR', 'AWS Lakehouse', 'AWS Redshift']
+  - Employer: ANZ
+    Place: Melbourne, AU
+    Positions:
+      - Title: Senior Software Engineer
+        Date: 2014 - 2021
+        Details:
+          - Design & development of web & mobile apps in transaction banking. These apps democratized transaction analytics to the banks customers (Institutions + retailers) while ensuring anonymity + APRA compliance and leveraged transaction data from credit, debit cards & POS terminals. 
+          - Design, development & maintenance of both banker and customer-facing apps to democratize retail analytics from credit & debit card transactions. 
+          - During my time in this team, alongside conventional full-stack software development, I've actively led the innovation and exploration of new tech streams. I've been successful in completing MVPs & POCs leveraging the likes of Ethereum Blockchain, interactive chatbots leveraging Dialogflow +  SoulMachines(https://www.soulmachines.com/) & NLP.
+          - Worked with very senior and c-suite executives; both within the bank and the bank's customers. I've tailored software to either help convert their ideas into a product on the internet and/or improve legacy systems by following the principles of agile software delivery.
+        Badges: ['Postgres', 'MSSQL Server', 'Python', 'C# .NET Core', 'AWS', 'GKE, GCP', 'ReactJS', 'Terraform', 'Gitlab CI/CD']
+  - Employer: Adroit Corp.
+    Place: Melbourne, AU
+    Positions:
+      - Title: Founder
+        Date: 2020 - 2022
+        Details:
+          - Adroit is basically an ABN to house all my "hobby" projects in web2 & web3 space.
+          - Sparkle - Get comfortable with programming leveraging flashcards (https://sparkle.adroitcorp.com.au)
+          - Proton - High-level Python framework that facilitates rapid server-side development (https://adroitcorp.com.au/#Products)
+          - g-zippy - AWS first & serverless first framework that embraces "code-generating code" philosophy to facilitate rapid server-side development with clean, pragmatic & security-first design; that is 100% serverless,  horizontally scale-able but easier on the pocket. (https://gitlab.com/1x-eng/g-zippy)
+        Badges: ['Postgres', 'Golang', 'Python', 'Typescript', 'NodeJS', 'AWS', 'ReactJS', 'Terraform', 'Gitlab CI/CD']
+  - Employer: iGate & RBC
+    Place: Ontario, CA
+    Positions:
+      - Title: Senior Software Engineer
+        Date: 2012 - 2014
+        Details:
+          - Development of security gateways for Stock Portal of Royal Bank of Canada (RBC), utilizing LAMP stack, JAVA, J2EE, Struts 2.0, Hibernate, EJB's,  MS SQL server 2014, UML, Webservices, SOAP, and XML. 
+          - Development of web daemon Security Gateway (WDSG) with the techniques of non-blocking IO multiplexing, event-driving, and secure cookies. SSL and cache based on PKI framework and role-based access control (RBAC) policy.
+        Badges: ['Java', 'J2EE', 'Struts 2.0', 'Hibernate', 'EJBs', 'MSSQL Server', 'SOAP']
+  - Employer: TCS
+    Place: Mumbai, IN
+    Positions:
+      - Title: Software Engineer
+        Date: 2010 - 2012
+        Details:
+          - E2E J2EE solution for Tax Information Network, Income tax department of India, NSDL. Tech stack included Struts2.0, EJBs, Hibernate, MSSQL server.
+          - Compression and encryption/decryption of the messages between depository participants and NSDL.
+          - Corporate Actions Modules for NSDL to facilitate distribution of benefits. Tech stack - EJB + Hibernate
+        Badges: ['Java', 'J2EE', 'Struts 2.0', 'Hibernate', 'EJBs', 'MSSQL Server']
+
+Education:
+  - Course: MBA
+    Place: Christ University, IN
+    Date: 2013 - 2015
+    Details: Executive Masters, Specialised in General Management
+  - Course: Bachelors in Engineering
+    Place: VTU, IN
+    Date: 2006 - 2010
+    Details: Specialised in Computer Science
+
+Skills:
+  - Family: Database
+    Items:
+      - PostgreSQL
+      - MS SQL Server
+      - MySql
+      - MongoDB
+      - Apache Cassandra (Datastax Enterprise)
+      - ScyllaDB
+      - DynamoDB
+      - Elasticsearch
+      - Solr
+  - Family: Backend Programming Languages
+    Items:
+      - Golang
+      - Typescript
+      - Python
+      - Kotlin
+      - C# .NET core
+      - Java
+  - Family: Cloud
+    Items:
+      - AWS
+      - GCP
+  - Family: IaC
+    Items:
+      - Terraform
+      - Pulumi
+      - Cloud Formation
+      - Ansible
+  - Family: CI/CD
+    Items:
+      - Gitlab
+      - Github Actions
+      - Buildkite
+      - Bitbucket
+
+Languages:
+  - Name: Typescript
+    Level: 8/10
+  - Name: Golang
+    Level: 8/10
+  - Name: Python
+    Level: 8/10
+  - Name: C# .NET Core
+    Level: 6/10
+  - Name: Kotlin
+    Level: 6/10
+  - Name: Java
+    Level: 7/10
+  - Name: Solidity
+    Level: 7/10
+  - Name: Scala
+    Level: 5/10
+  - Name: Rust
+    Level: 2/10
+
+Diplomas:
+  - Terraform Associate (2022)
+  - BTA Certified Blockchain Architect (2021)
+  - BTA Certified Blockchain Developer - Ethereum (2021)
+  - IBM Blockchain Foundation Developer (2021)
+  - GCP Professional Data Engineer (2020)
+  - AWS Certified Solution Architect - Associate (2020)
+  - AWS Certified Developer - Professional (2021)
+  - SCJP (2012)
+
+Interests:
+  - Opensource
+  - Stackoverflow
+  - AI/ML
+  - Wearable Tech
+  - Medical Tech
+  - Design Patterns
+  - Charcoal Painting
+  - Jazz Music 
+  - Piano
