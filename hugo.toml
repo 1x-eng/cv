@@ -8,7 +8,7 @@ disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
 
 baseURL = "https://1x-eng.github.io/cv"
 title = "Pruthvi - CV"
-#googleAnalytics = "G-V509B30S01"
+googleAnalytics = "G-V509B30S01"
 
 [params]
 enableMetaTags = true
