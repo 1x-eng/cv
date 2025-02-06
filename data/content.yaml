@@ -50,24 +50,24 @@ Experience:
             - Available on: https://cipher.sysapp.dev
             - Blog: https://1x-eng.github.io/blog/posts/cipher/
 
-          - **Tomatick**: Neurodivergent-friendly productivity:
+          - "**Tomatick**: Neurodivergent-friendly productivity":
             - "For when focus feels like herding cats"
-            - Core Philosophy: Work *with* your attention span, not against it
-            - How It Helps:
-              - **Adaptive Flow**:  
-                - "Traditional Pomodoro says 25-min focus. Tomatick whispers:  
-                - "'You're crushing it - want 9 more minutes?'"  
-                - Or "'Tough day? Let's try 12-minute sprints'""  
+            - "Core Philosophy: Work *with* your attention span, not against it"
+            - "How It Helps":
+              - "**Adaptive Flow**:"
+                - "Traditional Pomodoro says 25-min focus. Tomatick whispers:"
+                - "You're crushing it - want 9 more minutes?"
+                - "Or 'Tough day? Let's try 12-minute sprints'"
               
-              - **Time Travel Prevention**:  
-                - "That 3pm rabbit hole? Tomatick gently taps:  
-                - "'You've visited 7 tabs about medieval baking in 18 minutes - save for later?'"  
+              - "**Time Travel Prevention**:"
+                - "That 3pm rabbit hole? Tomatick gently taps:"
+                - "You've visited 7 tabs about medieval baking in 18 minutes - save for later?"
               
-              - **Progress Compass**:  
-                - "Completing *Write API docs* unblocks 3 other tasks → prioritize!"  
+              - "**Progress Compass**:"
+                - "Completing *Write API docs* unblocks 3 other tasks → prioritize!"
             
-            - Available on: https://github.com/1x-eng/tomatick
-            - Blog: https://1x-eng.github.io/blog/posts/tomatick/
+            - "Available on: https://github.com/1x-eng/tomatick"
+            - "Blog: https://1x-eng.github.io/blog/posts/tomatick/"
 
         Badges: ['AI Engineering', 'OSS Development', 'Neurotech']
 
