@@ -26,6 +26,75 @@ Profile: >
   - Polyglot system design emphasizing right-tool-for-the-job philosophy
 
 Experience:
+  - Employer: Parenting Sabbatical & exploring personal projects
+    Place: Melbourne, AU
+    Positions:
+      - Title: Founder & Principal Engineer - sysapp.dev
+        Date: 2025 - Present
+        Details:
+          - **Cipher**:Thought-Provoking Knowledge Companion:
+            - "Your journal shouldn't just store thoughts - it should understand them"
+            - Core Value: Transforms raw musings into structured wisdom through:
+              - Automatic context capture (location, mood, environment)
+              - Time-aware thought pattern detection
+              - AI-curated personal growth recommendations
+            - How It Works:
+              - Write naturally in Markdown
+              - Cipher quietly observes:
+                - "Was this written during your productive morning hours?"
+                - "How does this anxiety spike correlate with sleep patterns?"
+                - "What hidden connections exist between last month's ideas?"
+              - Receives personalized insights:
+                - "Your creative peaks follow 3 days of >7hr sleep (87% accuracy)"
+                - "This project hesitation mirrors 2022 career crossroads"
+            - Available on: https://cipher.sysapp.dev
+            - Blog: https://1x-eng.github.io/blog/posts/cipher/
+
+          - **Tomatick**: Neurodivergent-friendly productivity:
+            - "For when focus feels like herding cats"
+            - Core Philosophy: Work *with* your attention span, not against it
+            - How It Helps:
+              - **Adaptive Flow**:  
+                - "Traditional Pomodoro says 25-min focus. Tomatick whispers:  
+                - "'You're crushing it - want 9 more minutes?'"  
+                - Or "'Tough day? Let's try 12-minute sprints'""  
+              
+              - **Time Travel Prevention**:  
+                - "That 3pm rabbit hole? Tomatick gently taps:  
+                - "'You've visited 7 tabs about medieval baking in 18 minutes - save for later?'"  
+              
+              - **Progress Compass**:  
+                - "Completing *Write API docs* unblocks 3 other tasks → prioritize!"  
+            
+            - Available on: https://github.com/1x-eng/tomatick
+            - Blog: https://1x-eng.github.io/blog/posts/tomatick/
+
+        Badges: ['AI Engineering', 'OSS Development', 'Neurotech']
+
+  - Employer: Lyka
+    Place: Melbourne, AU
+    Positions:
+      - Title: Staff Software Engineer, Foundations
+        Date: 2023 - 2024
+        Details:
+          - Technical leadership for core platform modernization:
+            - Transitioned monolithic PHP system to distributed services
+            - Conducted build-vs-buy analysis for ecommerce capabilities
+            - Delivered Shopify headless commerce POC (8-week timeline)
+          - Auth system architecture:
+            - Multi-tenant OAuth2 service supporting 50k+ MAU
+            - RBAC with hierarchical organization structures
+            - JWT validation <10ms p99 across B2B/B2C platforms
+          - Strategic platform decisions:
+            - Advocated against data duplication through Shopify Storefront API
+            - Prevented 6mo+ engineering effort through vendor capability leverage
+            - Established data sync safety mechanisms (idempotent writes)
+          - Team leadership:
+            - Mentored 4 engineers in distributed systems best practices
+            - Authored multiple RFCs for architectural decisions
+            - Introduced production readiness reviews, weekly 5/15 reports for transparency & accountability
+        Badges: ['Platform Modernization', 'Headless Commerce', 'Auth Systems']
+
   - Employer: Seer Medical
     Place: Melbourne, AU
     Positions:
@@ -51,6 +120,7 @@ Experience:
             - Eliminated 40% of GraphQL boilerplate via database-driven code generation
             - Accelerated schema changes by 2.5x through automated code generation
         Badges: ['Typescript', 'NodeJS', 'Postgraphile', 'plpgsql', 'AWS Cognito', 'Okta IdP', 'Terraform', 'Buildkite', 'AWS Container + serverless stack']
+  
   - Employer: Zip
     Place: Melbourne, AU
     Positions:
@@ -67,6 +137,7 @@ Experience:
             - Containerized services (AWS ECS) with IaC (Terraform)
             - GraphQL gateway (Apollo) unifying search and ad systems
         Badges: ['Search Relevance', 'ML Integration', 'Monetization Systems']
+  
   - Employer: Systema AI
     Place: Melbourne, AU
     Positions:
@@ -85,6 +156,7 @@ Experience:
             - Auto-scaling prediction endpoints with 99.95% SLA
             - CI/CD pipeline for zero-downtime model deployments
         Badges: ['Data Engineering', 'Privacy Engineering', 'ML Systems', 'Cloud Infrastructure']
+  
   - Employer: QSIC
     Place: Melbourne, AU
     Positions:
@@ -100,6 +172,7 @@ Experience:
             - Collaborated on dynamic ad rules engine with data science team
             - Delivered initial POC within 6 weeks
         Badges: ['Data Engineering', 'Real-time Systems', 'AWS Ecosystem']
+  
   - Employer: etika
     Place: Melbourne, AU
     Positions:
@@ -123,6 +196,7 @@ Experience:
             - Private settlement layer (Corda)
             - Automated reconciliation engine
         Badges: ['Data Architecture', 'Blockchain Systems', 'AWS Ecosystem']
+  
   - Employer: ANZ
     Place: Melbourne, AU
     Positions:
@@ -149,6 +223,7 @@ Experience:
             - Translated C-suite vision into technical roadmaps
             - Helped secured funding for cloud migration program
         Badges: ['Banking Systems', 'Cloud Migration', 'Emerging Tech']
+  
   - Employer: Adroit Corp
     Place: Melbourne, AU
     Positions:
@@ -162,13 +237,13 @@ Experience:
             - Dashboard with Leitner system visualization + code progress heatmaps
             - Blog: https://medium.com/@1x-eng/using-spaced-repetition-to-supercharge-your-programming-skills-a1b355934f61
           - **Proton Framework** (Anti-ORM Philosophy):
-              - SQL-first design with raw query support + automated parameterization
-              - CLI-driven CRUD generation: `cproton.sh -s <your_api_name>`
-              - Security-focused middleware stack:
-                * JWT auth with RBAC policies
-                * Redis caching layer with stampede protection
-                * SQL injection firewall via AST analysis
-                - Meta-programming core:
+            - SQL-first design with raw query support + automated parameterization
+            - CLI-driven CRUD generation: `cproton.sh -s <your_api_name>`
+            - Security-focused middleware stack:
+              - JWT auth with RBAC policies
+              - Redis caching layer with stampede protection
+              - SQL injection firewall via AST analysis
+            - Meta-programming core:
                   - Annotated type system generating DB migrations
                   - Decorator-based endpoint configuration
           - **G-Zippy Framework** (Serverless Accelerator):
@@ -183,6 +258,7 @@ Experience:
                 - VPC injection for sensitive workloads
                 - CIS benchmark-compliant resource configurations
         Badges: ['EdTech R&D', 'DevTool Innovation', 'Security Automation']
+  
   - Employer: iGate & RBC
     Place: Ontario, CA
     Positions:
@@ -198,6 +274,7 @@ Experience:
             - Optimized Hibernate queries reducing average latency
             - Helped maintain SOAP/XML services during mobile integration
         Badges: ['Java', 'J2EE', 'Struts 2.0', 'Hibernate', 'EJBs', 'MSSQL Server', 'SOAP']
+  
   - Employer: TCS
     Place: Mumbai, IN
     Positions:
