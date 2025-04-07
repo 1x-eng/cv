@@ -279,7 +279,7 @@ Experience:
     Place: Mumbai, IN
     Positions:
       - Title: Software Engineer
-        Date: 2010 - 2012
+        Date: 2007 - 2012
         Details:
           - Contributed to tax information system development:
             - Implemented data compression modules using Java GZIP streams
@@ -293,11 +293,9 @@ Experience:
 Education:
   - Course: MBA
     Place: Christ University, IN
-    Date: 2013 - 2015
     Details: Executive Masters, Specialised in General Management
   - Course: Bachelors in Engineering
     Place: VTU, IN
-    Date: 2006 - 2010
     Details: Specialised in Computer Science
 
 Skills:
